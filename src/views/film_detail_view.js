@@ -8,6 +8,7 @@ FilmDetailView.prototype.createFilmDetail = function (film) {
   const title = document.createElement('h2');
   title.textContent = film.title;
   filmDetail.appendChild(title);
+
   const description = document.createElement('p');
   description.textContent = film.description;
   filmDetail.appendChild(description);
