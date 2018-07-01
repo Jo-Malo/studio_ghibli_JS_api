@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const selectElement = document.querySelector('select#date-select');
   const selectView = new SelectView(selectElement);
-  selectView.bindEvents();
+  selectView.subscribeToDatesAndPopulateDropDown();
 
 
   const listContainer = document.querySelector('#film-list');
   const filmListView = new FilmListView(listContainer);
-  filmListView.bindEvents();
+  filmListView.subscribeToFilmsReadyAndRenderFilmDetailView();
 
   const films = new Films;
-  films.bindEvents();
   films.getData();
+  films.watchSelectAndPublishSelectedYearFilm();
 })

@@ -3,6 +3,7 @@ const FilmDetailView = function () {
 
 FilmDetailView.prototype.createFilmDetail = function (film) {
   const filmDetail = document.createElement('div');
+  // CSS
   filmDetail.classList.add('film-detail');
 
   const title = document.createElement('h2');

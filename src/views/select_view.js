@@ -4,7 +4,7 @@ const SelectView = function (selectElement) {
   this.selectElement = selectElement;
 };
 
-SelectView.prototype.bindEvents = function () {
+SelectView.prototype.subscribeToDatesAndPopulateDropDown = function () {
   PubSub.subscribe('Films:release-dates-ready', (evt) => {
     this.populateSelect(evt.detail);
   });
