@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  margin: 0;
+  color: #E24E42;
+  font-family: 'Cabin', sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  color: #062f4f;
+  text-align: center;
+}
+
+label {
+  color: #008F95;
+}
+
+head {
+  width: 100%;
+  padding: 0 1em;
+  position: fixed;
+  top: 0;
+  background-color: #fffaed;
+  border-bottom: 1px solid #523059;
+}
+
+img {
+  width: 65px;
+  height: 65px;
+}
+
+ul {
+  -webkit-padding-end: 40px;
+}
+
+ul {
+  margin: 5px;
+  padding: 5px;
+  background-color: #fffaed;
+  display: inline-block;
+}
