@@ -2,7 +2,7 @@ body {
   height: 100vh;
   margin: 0;
   color: #E24E42;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Karla', sans-serif;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -12,7 +12,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Lora', serif;
+  font-family: 'Karla', sans-serif;
   color: #062f4f;
   text-align: center;
 }
@@ -31,8 +31,8 @@ head {
 }
 
 img {
-  width: 65px;
-  height: 65px;
+  width: 80px;
+  height: 80px;
 }
 
 ul {
