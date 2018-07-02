@@ -26,7 +26,7 @@ SelectView.prototype.populateSelect = function (releaseDates) {
   })
 };
 
-// cretes initial menu option with date and index
+// creates initial menu option with date and index
 SelectView.prototype.createReleaseDateOption = function (release_date, index) {
   const option = document.createElement('option');
   option.textContent = release_date;
