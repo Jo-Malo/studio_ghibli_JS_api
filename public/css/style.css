@@ -1,10 +1,12 @@
 body {
   height: 100vh;
   margin: 0;
-  color: #E24E42;
+  color: #ffffff;
   font-family: 'Karla', sans-serif;
   background-color: #f9f9f9;
   text-align: center;
+  background: url(../images/desktop-3246124_1920.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 p {
@@ -18,7 +20,7 @@ h1, h2, h3, h4 {
 }
 
 label {
-  color: #008F95;
+  color: #ffffff ;
 }
 
 head {
@@ -42,6 +44,6 @@ ul {
 ul {
   margin: 5px;
   padding: 5px;
-  background-color: #fffaed;
+  /* background-color: #fffaed; */
   display: inline-block;
 }
